@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony Barbearia</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <header class="header fixed-menu">
+        <div class="logo">
+            <img src="./img/Logo Barbearia.png" alt="Logo" height="40"> <!-- Substitua "logo.png" pela imagem da sua logo -->
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#texto2">Sobre</a></li>
+                <li><a href="#servicos2">Serviços</a></li>
+                <li><a href="#estrutura2">Estrutura</a></li>
+                <li><a href="#contato2">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="agendamento">
+            <button><a href="https://api.whatsapp.com/send/?phone=5561994048921&text&type=phone_number&app_absent=0" target="_blank">Agendamento Online</a></button>
+        </div>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/barbeiro.jpg" alt="Logo barbeiro">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="titulo">Modelos clasicos</h2>
+                  <p class="paragrafo">Maquinas e Equipamentos de ultima geraçao!</p>
+                </div>
+              </div>
+            <div class="carousel-item">
+                <img src="./img/corte 2.jpg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="titulo">Cortes atuais</h2>
+                  <p class="paragrafo">Com precisão harmonia e sem cortes ou falhas</p>
+                </div>
+              </div>
+            <div class="carousel-item">
+                <img src="./img/corte4.jpg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="titulo">Cuidando da sua barba</h2>
+                  <p class="paragrafo">Com os melhores do mercado</p>
+                </div>
+              </div>
+            
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      </div>
+
+      <div class="caixa">
+        <!-- Caixa dividida -->
+        <div class="sobre-nos">
+          <!-- Imagem à esquerda -->
+          <div class="imagem">
+            <img src="./img/Barbearia sobre (1),02.jpg" alt="Imagem sobre nós">
+          </div>
+          
+          <!-- Texto à direita -->
+          <div id="texto2" class="texto">
+            <h2>Sobre Nós</h2>
+            <p>
+                a Tony Barbearia é inspirada nas barbearias italianas, mistura o clássico e o moderno para proporcionar a melhor experiência para os nossos clientes. 
+                <br>
+                <br>
+                Assista aos jogos dos principais campeonatos europeus e nacionais e até jogos da NFL em nossas televisões ou Telão de 65' polegadas, desfrute de um chopp artesanal gelado ou um café expresso especial!
+                <br>
+                <br>
+                Serviços
+                <br>
+                <br>
+                A Tony Barbearia oferece cortes de cabelo, barba, selagem, tonalização de barba, massagem, ventosaterapia, depilação, terapias capilares, Dia do Noivo e muito mais.
+                <br>
+                Marque já o seu horário e venha conhecer a maior e melhor barbearia de Brasília!
+            </p>
+          </div>
+        </div>
+      </div>
+<!-- =======================Serviços========================================== -->
+
+      <div id="servicos2" class="caixa-servicos">
+        <h1 class="titulo-principal">Serviços</h1>
+        <div class="conteudo">
+            <div class="categoria">
+                <h2>Barba</h2>
+                <p>Design diferenciado ou específico, tolha quente, hidratação, pós-barba, massagem relaxante a finalização.</p>
+            </div>
+            <div class="categoria">
+                <h2>Cabelo</h2>
+                <p>Corte com design diferenciado ou tradicional, Higienização, Secagem e Modelagem com pomada.</p>
+            </div>
+            <div class="categoria">
+                <h2>Outros</h2>
+                <p>Depilação de orelha ou nariz com cera.
+                  Hidratação para a barba e cabelo.
+                  Limpeza de pele com retirada de cravos, espinhas e oleosidade.</p>
+            </div>
+            <div class="categoria">
+                <h2>Serviços Premium</h2>
+                <p>Para quem busca um atendimento ainda mais especial, oferecemos serviços exclusivos, como o "Dia do Noivo", e pacotes personalizados.</p>
+            </div>
+        </div>
+    </div>
+      
+    <!-- ========================Nossa==Estrutura=========================== -->
+
+<div id="estrutura2" class="estrutura">
+    <div class="video-container">
+      
+      <video autoplay loop muted id="video-background">
+          <source src="./img/Vídeo COMPLETO produzido para Barbearia.mp4" type="video/mp4">
+      </video>
+    </div>
+  <div class="texto-estrutura">
+      <h2>Nossa Estrutura</h2>
+      <p>Conheça as nossas instalações modernas e confortáveis. Trabalhamos para oferecer a melhor experiência possível para nossos clientes, com um ambiente aconchegante e equipamentos de última geração.</p>
+  </div>
+  <div class="imagens-estrutura">
+      <div class="imagem">
+          <img src="./img/Estrutura-1.png" alt="Imagem Estrutura 1">
+      </div>
+      <div class="imagem">
+          <img src="./img/Estrutura-2.png" alt="Imagem Estrutura 2">
+      </div>
+      <div class="imagem">
+          <img src="./img/Estrutura 3.jpg" alt="Imagem Estrutura 3">
+      </div>
+      <div class="imagem">
+          <img src="./img/Estrutura 4.jpg" alt="Imagem Estrutura 4">
+      </div>
+  </div>
+</div>
+
+<!-- ===============================Contato=============================================== -->
+
+<div id="contato2" class="caixa-contato">
+  <h2 class="titulo-contato text-center">Contato</h2>
+  <p class="descricao-contato text-center">Mande sua mensagem, crítica e elogio pelo formulário abaixo. Sua opinião e feedback são extremamente importantes para a nossa equipe. .</p>
+  
+  <form action="#" method="post" class="form-contato">
+      <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" class="form-control" placeholder="Digite seu nome" required>
+      </div>
+      
+      <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="Digite seu email" required>
+      </div>
+      
+      <div class="form-group">
+          <label for="telefone">Telefone</label>
+          <input type="tel" id="telefone" name="telefone" class="form-control" placeholder="Digite seu telefone" required>
+      </div>
+
+      <div class="form-group">
+          <label for="servico">Escolha um serviço</label>
+          <select id="servico" name="servico" class="form-control" required>
+              <option value="">Selecione...</option>
+              <option value="corte">Corte</option>
+              <option value="barba">Barba</option>
+              <option value="corte+barba">Corte + Barba</option>
+          </select>
+      </div>
+
+      <div class="form-group">
+          <label for="mensagem">Digite sua mensagem</label>
+          <textarea id="mensagem" name="mensagem" class="form-control" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+      </div>
+
+      <button type="submit" class="botao">Enviar</button>
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

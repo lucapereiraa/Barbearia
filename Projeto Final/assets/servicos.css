@@ -1,0 +1,48 @@
+/* Caixa de Serviços */
+.caixa-servicos {
+    background-color: #333333;
+    border-radius: 0.8rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5em;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+/* Conteúdo dividido em 4 partes */
+.conteudo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+/* Estilo de cada categoria */
+.categoria {
+    background-color: #f9f9f9;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.categoria h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.categoria p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    color: #555;
+}

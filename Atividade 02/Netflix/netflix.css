@@ -1,0 +1,98 @@
+@font-face{
+        font-family: "NETFLIX";
+        src: url(./NETFLIX.ttf);
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "NETFLIX", "fantasy";
+    background-color: #141414;
+    color: white;
+}
+
+header {
+    font-family: "NETFLIX", "fantasy";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.logo {
+    font-family: "NETFLIX", "fantasy";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    font-family: "NETFLIX", "fantasy";
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    font-family: "NETFLIX", "fantasy";
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-family: "NETFLIX", "fantasy";
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    font-family: "NETFLIX", "fantasy";
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/fundonetflix.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+.banner h1 {
+    font-family:"NETFLIX", "fantasy";
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner button {
+    font-family: "NETFLIX", "fantasy";
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
+
+.grid {
+    font-family:"NETFLIX", "fantasy";
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.item {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    font-family:"NETFLIX", "fantasy";
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}

@@ -1,0 +1,112 @@
+@font-face{
+    font-family: "barbie";
+    src: url(./Barbie.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Barbie', sans-serif;
+    background-color: #f9f2f6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    background-color: #ff69b4; /* Rosa Barbie */
+    color: white;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 35px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/Fundo\ barbie\ nome.jpeg');
+    background-size: cover;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.banner h1 {
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.banner button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(247, 247, 247);
+    background-color: #e50914; /* Vermelho Barbie */
+    border: none;
+    cursor: pointer;
+}
+
+.produtos {
+    padding: 60px;
+    text-align: center;
+    background-image: url(./img/Fundo\ barbie02.jpeg);
+}
+
+.produtos h2 {
+    margin-bottom: 20px;
+}
+
+.produto {
+    background-color: #f30ef3;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #ff69b4;
+    color: white;
+}
+
+h3{
+   font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
+li{
+    font-size: 30px;
+}

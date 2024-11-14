@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #d4ddee;
+    
+}
+
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+fieldset{
+    text-align:center;
+    margin: 1rem;
+    background-color: #e8eefa;
+    width: 20%;
+    justify-content: center;
+    height: 54vh;
+    width: 40vh;
+}
+
+h1{
+    font-size:2.5rem;
+}
+

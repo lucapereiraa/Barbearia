@@ -1,0 +1,95 @@
+/* Estilos para o cabeçalho */
+.header {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 1rem 2rem;
+    position: relative;
+}
+.fixed-menu{
+    position: fixed;  /* Fixar o menu no topo */
+    top: 0;  /* Fica no topo da página */
+    left: 0;
+    right: 0;
+    padding: 1rem 2rem;
+    z-index: 1000;  /* Garantir que o menu fique sempre por cima */
+    background-color: #333;
+}
+
+.logo img {
+    height: 10rem; /* Ajuste o tamanho da logo conforme necessário */
+    margin-left: 40rem;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-menu ul li {
+    margin: 0 2rem;
+}
+
+.nav-menu ul li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.nav-menu ul li a:hover {
+    color: #f39c12; /* Cor ao passar o mouse */
+}
+
+/* Estilo para o botão de agendamento */
+.agendamento button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem 2rem;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin-right: 50rem;
+}
+
+.agendamento button a {
+    color: white;
+    text-decoration: none;
+}
+
+.agendamento button:hover {
+    background-color: #e67e22;
+}
+
+.agendamento button a:hover {
+    text-decoration: underline;
+}
+
+#carouselExampleIndicators{
+    margin-top: 12rem;
+    width:100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0 10rem 0 ;
+    background-color: #333333;
+    display: flex;
+    /* text-align: center; */
+}
+
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    text-align: right;
+    margin-top: -30rem;
+}
+
+.paragrafo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    text-align: right;
+    margin-top: 5rem;
+}   
