@@ -1,0 +1,49 @@
+/* ======================== Rodapé =============================== */
+.rodape {
+    background-color: #333;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.rodape .creditos {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.rodape .creditos span {
+    color: #f4a261; /* Cor personalizada para o nome "LucasAmp" */
+}
+
+.rodape .redes-sociais {
+    margin-top: 20px;
+}
+
+.rodape .link-redes-sociais {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.rodape .link-redes-sociais:hover {
+    color: #f4a261; /* Muda a cor dos links ao passar o mouse */
+}
+
+.rodape .link-redes-sociais img {
+    width: 3rem;
+    height: 3rem;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .rodape .creditos {
+        font-size: 1rem;
+    }
+
+    .rodape .link-redes-sociais {
+        font-size: 1.25rem;
+        margin: 0 10px;
+    }
+}

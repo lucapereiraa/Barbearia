@@ -3,6 +3,9 @@
 @import url(./assets/servicos.css);
 @import url(./assets/estrutura.css);
 @import url(./assets/contato.css);
+@import url(./assets/perguntas.css);
+@import url(./assets/mapa.css);
+@import url(./assets/socias.css);
 
 *{
     margin: 0;

@@ -1,0 +1,59 @@
+.faq-section {
+    background-color: #3f3f3f;
+    padding: 50px 0;
+}
+
+.faq-section .titulo-principal {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 4rem;
+}
+
+.faq-item {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.faq-item p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.faq-item:hover {
+    background-color: #cecaca;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .faq-section .container {
+        padding: 0 20px;
+    }
+
+    .faq-item {
+        padding: 15px;
+    }
+
+    .faq-item h4 {
+        font-size: 1.125rem;
+    }
+
+    .faq-item p {
+        font-size: 0.95rem;
+    }
+}
