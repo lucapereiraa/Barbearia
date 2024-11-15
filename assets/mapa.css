@@ -24,24 +24,39 @@ iframe {
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
-    .faq-section .container {
-        padding: 0 20px;
-    }
 
-    .faq-item {
-        padding: 15px;
-    }
-
-    .faq-item h4 {
-        font-size: 1.125rem;
-    }
-
-    .faq-item p {
-        font-size: 0.95rem;
+/* Para telas médias (tablets, 768px - 1024px) */
+@media (max-width: 1024px) {
+    .mapa-section .titulo-principal {
+        font-size: 2.5rem; /* Diminui o tamanho do título */
+        margin-bottom: 2rem; /* Ajusta a margem inferior */
     }
 
     .mapa-container iframe {
-        height: 300px; /* Ajuste para telas menores */
+        height: 35rem; /* Ajuste do tamanho do iframe para telas médias */
+    }
+}
+
+/* Para telas pequenas (celulares, 480px - 768px) */
+@media (max-width: 768px) {
+    .mapa-section .titulo-principal {
+        font-size: 2rem; /* Reduz o tamanho do título para telas pequenas */
+        margin-bottom: 1.5rem; /* Ajusta a margem inferior */
+    }
+
+    .mapa-container iframe {
+        height: 25rem; /* Ajuste do iframe para caber melhor em telas menores */
+    }
+}
+
+/* Para telas muito pequenas (celulares abaixo de 480px) */
+@media (max-width: 480px) {
+    .mapa-section .titulo-principal {
+        font-size: 1.8rem; /* Ajuste final do título para telas muito pequenas */
+        margin-bottom: 1rem;
+    }
+
+    .mapa-container iframe {
+        height: 20rem; /* Ajuste do iframe para telas pequenas */
     }
 }

@@ -46,3 +46,41 @@
     font-size: 1.5em;
     color: #555;
 }
+
+/* Para telas pequenas (celulares, 480px - 768px) */
+@media (max-width: 768px) {
+    .titulo-principal {
+        font-size: 2.4rem; /* Ajusta o tamanho do título */
+    }
+
+    .conteudo {
+        grid-template-columns: 1fr; /* 1 coluna em telas muito pequenas */
+    }
+
+    .categoria h2 {
+        font-size: 2rem; /* Reduz o tamanho do título de cada categoria */
+    }
+
+    .categoria p {
+        font-size: 1.3rem; /* Reduz o tamanho do texto de descrição */
+    }
+}
+
+/* Para telas muito pequenas (celulares abaixo de 480px) */
+@media (max-width: 480px) {
+    .titulo-principal {
+        font-size: 2rem; /* Reduz ainda mais o tamanho do título */
+    }
+
+    .conteudo {
+        grid-template-columns: 1fr; /* 1 coluna em telas menores */
+    }
+
+    .categoria h2 {
+        font-size: 1.8rem; /* Ajusta ainda mais o tamanho do título */
+    }
+
+    .categoria p {
+        font-size: 1.2rem; /* Ajusta o tamanho do texto */
+    }
+}

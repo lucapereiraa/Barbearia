@@ -24,18 +24,6 @@
     
 }
 
-/* .video-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-} */
-
-    
-
 .texto-estrutura {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -83,4 +71,66 @@
     width: 30rem;
     height: 30rem;
     border-radius: 0.8rem;
+}
+
+/* Responsividade */
+
+/* Para telas pequenas (tablets, celulares) */
+@media (max-width: 1024px) {
+    .estrutura {
+        height: 50rem;  /* Ajusta a altura da estrutura */
+        padding: 2rem;
+    }
+
+    .texto-estrutura {
+        max-width: 600px;  /* Ajusta a largura máxima do texto */
+        top: 30%;
+    }
+
+    .texto-estrutura h2 {
+        font-size: 3.5em;  /* Reduz o tamanho da fonte do título */
+    }
+
+    .texto-estrutura p {
+        font-size: 1.8em;  /* Reduz o tamanho da fonte do parágrafo */
+    }
+
+    .imagens-estrutura {
+        grid-template-columns: repeat(2, 1fr);  /* 2 colunas em telas menores */
+    }
+
+    .imagem img {
+        width: 20rem;   /* Ajusta a largura das imagens */
+        height: 20rem;  /* Ajusta a altura das imagens */
+    }
+}
+
+/* Para telas muito pequenas (celulares abaixo de 480px) */
+@media (max-width: 480px) {
+    .estrutura {
+        height: 40rem;  /* Ajusta a altura da estrutura */
+        padding: 1rem;
+    }
+
+    .texto-estrutura {
+        max-width: 90%;  /* Largura mais flexível para caber melhor em telas pequenas */
+        top: 25%;
+    }
+
+    .texto-estrutura h2 {
+        font-size: 2.5em;  /* Diminui ainda mais o tamanho da fonte */
+    }
+
+    .texto-estrutura p {
+        font-size: 1.4em;  /* Ajusta o tamanho do parágrafo */
+    }
+
+    .imagens-estrutura {
+        grid-template-columns: 1fr;  /* 1 coluna em celulares pequenos */
+    }
+
+    .imagem img {
+        width: 15rem;   /* Ajusta a largura das imagens */
+        height: 15rem;  /* Ajusta a altura das imagens */
+    }
 }

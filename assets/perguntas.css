@@ -40,20 +40,68 @@
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+
+/* Para telas médias (tablets, 768px - 1024px) */
+@media (max-width: 1024px) {
     .faq-section .container {
         padding: 0 20px;
     }
 
+    .faq-section .titulo-principal {
+        font-size: 2.2rem; /* Diminui o tamanho do título para telas médias */
+        margin-bottom: 2rem; /* Menor espaçamento inferior */
+    }
+
     .faq-item {
-        padding: 15px;
+        padding: 1.5rem; /* Reduz o padding dos itens de FAQ */
     }
 
     .faq-item h4 {
-        font-size: 1.125rem;
+        font-size: 1.5rem; /* Reduz o tamanho do título de cada item */
     }
 
     .faq-item p {
-        font-size: 0.95rem;
+        font-size: 1.1rem; /* Ajusta o tamanho do parágrafo */
+    }
+}
+
+/* Para telas pequenas (celulares, 480px - 768px) */
+@media (max-width: 768px) {
+    .faq-section .titulo-principal {
+        font-size: 1.8rem; /* Reduz ainda mais o título */
+        margin-bottom: 1.5rem;
+    }
+
+    .faq-item {
+        padding: 1.2rem; /* Reduz o padding dos itens de FAQ */
+        margin-bottom: 1.5rem; /* Reduz a margem inferior */
+    }
+
+    .faq-item h4 {
+        font-size: 1.3rem; /* Reduz o tamanho dos títulos dentro dos itens */
+    }
+
+    .faq-item p {
+        font-size: 1rem; /* Ajusta o tamanho do texto dentro dos itens */
+    }
+}
+
+/* Para telas muito pequenas (celulares abaixo de 480px) */
+@media (max-width: 480px) {
+    .faq-section .titulo-principal {
+        font-size: 1.6rem; /* Ajuste final para o título */
+        margin-bottom: 1rem;
+    }
+
+    .faq-item {
+        padding: 1rem; /* Diminui ainda mais o padding */
+    }
+
+    .faq-item h4 {
+        font-size: 1.2rem; /* Ajusta o tamanho do título para telas pequenas */
+    }
+
+    .faq-item p {
+        font-size: 0.95rem; /* Ajusta o tamanho da descrição */
     }
 }

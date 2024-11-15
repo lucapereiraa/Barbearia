@@ -52,14 +52,47 @@
     color: white;
   }
   
-  /* Responsividade: quando a tela for menor, as colunas se tornam empilhadas */
-  @media (max-width: 768px) {
-    .sobre-nos {
-      flex-direction: column; /* Coloca a imagem e o texto empilhados */
-    }
-  
-    .imagem img {
-      width: 100%;
-      height: auto;
-    }
+  /* Responsividade */
+
+/* Para telas pequenas (tablets, celulares) */
+@media (max-width: 768px) {
+  .caixa {
+      height: 400px; /* Ajuste a altura da caixa para telas menores */
   }
+
+  .sobre-nos {
+      flex-direction: column; /* Empilha a imagem e o texto */
+      width: 100%;             /* Ajusta a largura para 100% da tela */
+      padding: 1rem;           /* Reduz o padding em telas pequenas */
+  }
+
+  .imagem {
+      flex: none;              /* Remove o flex para a imagem ocupar a totalidade da largura */
+      height: 250px;           /* Define uma altura fixa para a imagem em telas menores */
+  }
+
+  .texto {
+      padding: 1rem;           /* Ajusta o padding do texto para telas menores */
+  }
+
+  .texto h2 {
+      font-size: 2rem;         /* Reduz o tamanho da fonte do título */
+      margin-bottom: 1.5rem;   /* Ajusta o espaço abaixo do título */
+  }
+
+  .texto p {
+      font-size: 1.4rem;       /* Reduz o tamanho da fonte do parágrafo */
+  }
+}
+
+/* Para telas muito pequenas (como celulares menores que 480px) */
+@media (max-width: 480px) {
+  .texto h2 {
+      font-size: 1.8rem;         /* Tamanho de fonte ainda menor */
+      margin-bottom: 1rem;       /* Ajuste do espaçamento */
+  }
+
+  .texto p {
+      font-size: 1.2rem;         /* Reduz mais o tamanho da fonte */
+  }
+}
